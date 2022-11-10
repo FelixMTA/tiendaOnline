@@ -1,0 +1,54 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+.barra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.imagenc {
+  width: 30%;
+  height: 30%;
+}
+
+.carrito {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carrito:hover {
+  background-color: #494225;
+  border-radius: 40%;
+  color: aliceblue;
+}
+.categorias {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+select {
+  background-color: rgb(238, 227, 147);
+  width: 10%;
+  height: 20%;
+}
+
+footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  background: rgb(225, 199, 199);
+}
+
+.buscador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+
+  border-radius: 0 0 70% 70%;
+}
